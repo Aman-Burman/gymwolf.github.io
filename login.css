@@ -1,0 +1,107 @@
+body{
+    background-color: beige;
+}
+
+input{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(216,216,216);
+    margin-top: 10px;
+   
+}
+#Main{
+    width: 30%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    display: block;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+form{
+    width: 40%;
+    border: 0px solid red;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  
+}
+
+#container1{
+    width: 40%;
+    border: 0px solid red;
+    margin: auto;
+    text-align: center;
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight:lighter;
+}
+#password{
+    text-align:left ;
+}
+
+#btn1{
+    
+    padding: 5px 70px 5px;
+    cursor: pointer;
+    background-color: rgb(66,139,202);
+    border-radius: 5px;
+    display: flex;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+#btn2{
+    padding: 5px 25px 5px;
+    cursor: pointer;
+    background-color:rgb(59,89,152);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+p{
+    color: grey;
+}
+a{
+    margin-top: 10px;
+    color:rgb(101,160,211);
+    text-decoration: none;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    input{
+        padding: 0;
+        border-radius: 0px;
+        border: 1px solid rgb(216,216,216);
+        margin-top: 10px;
+       
+    }
+    #Main{
+        width: 60%;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        display: block;
+        margin: auto;
+        background-color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+    }
+    form{
+        width: 70%;
+        border: 0px solid red;
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        padding-bottom: 10px;
+       
+      
+    }
+}

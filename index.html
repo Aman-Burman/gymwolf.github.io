@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/1afc3c43b0.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+ <div id="mainbox">
+    <div id="Container">
+        <video autoplay loop muted plays inline class="back-video" >
+            <source src="images/SaveTube.App-Gymwolf 2019.mp4" type="video/mp4">
+        </video>
+       
+      </div>  
+    <div id="Navbar">
+     <div id="logo">  
+        <img src="https://play-lh.googleusercontent.com/Ct9vf0Xyt6phkTORMRfcvzSvjWHUQ0dd3gXypUfVbGD7VnwpXES5uEUYHtO3y82xlZU" alt="">
+         <a href="">GYMWOLF</a>
+    </div>
+      <div id="SideSection">
+        <a href="register.html"><div id="register">Register</div></a>
+        <a target="_top"href="login.html">Sign in</a>
+       <a  id="searchbox" href=""> <i id="icon" class="fa-solid fa-magnifying-glass"></i></a>
+    </div>
+</div>
+<div class="content">
+    <h1 id="Script">A better way to track your workout</h1>
+    <a  href="register.html"><button id="btn1">Start Free</button></a>
+    <button id="btn2">See how it works <i class="fa-solid fa-circle-chevron-right"></i></button>
+  </div>
+
+<div id="section1">
+    <div class="inside1" >
+        <h1>Online Personal Trainer</h1>
+        <p>Gymwolf has certified personal trainers that provide you with customised workout plans depending on your goals. Our trainers track your progress, coach and motivate you daily through our web and smartphone app.
+        </p>
+        <button>Learn More</button>
+    </div>
+    <div>
+        <img src="https://www.gymwolf.com/img/trainer-bg.jpg" alt="">
+    </div>
+</div>
+<div id="Features">
+    <div class="inside1" >
+        <h1>Features</h1>
+        <p>Gymwolf is a workout tracking tool. Add workouts, create your own customized workout plans or find suitable plan from other users. Accomplish your goals with motivation from personal trainer and committed training.
+        </p>
+        <button id="btn5">Learn More</button>
+    </div>
+    <div >
+        <img id="immg" src="https://www.gymwolf.com/img/landing/features-img.png" alt="">
+    </div>
+</div>
+<div id="progress">
+    <div>
+        <img id="proimg" src="https://www.gymwolf.com/img/landing/progress-img.png" alt="">
+    </div>
+    <div id="inside2" >
+        <h1>See your progress</h1>
+        <p>Gymwolf provides different graphs that help you track your progress. There are graphs for gym workouts, cardio workouts and bodyweight. The graphs are highly customizable: you can select the date range, exercise and group the results by month, week or single workout.
+        </p>
+        <button id="btn5">Learn More</button>
+    </div>
+</div>
+
+<div id="Features2">
+    <div class="inside1" >
+        <h1>Database with 300+ exercises</h1>
+        <p>Gymwolf has a database with over 300 exercises. The exercises come with detailed descriptions, tips and step-by-step images. If you don't find a exercise from our database, then you can also add your own exercises.
+        </p>
+        <button id="btn5">Learn More</button>
+    </div>
+    <div >
+        <img id="immg"src="https://www.gymwolf.com/img/landing/database-img.png" alt="">
+    </div>
+</div>
+
+
+<div id="count">
+     <p id="labelcounter" >
+        <span class="label">1</span>
+        <span class="label">1</span>
+        <span class="label">4</span>
+        <span class="label">9</span>
+        <span class="label">1</span>
+        <span class="label">6</span>
+        <span class="label">9</span>
+        <span class="label">5</span>
+        <span class="label">1</span>
+        <span class="label">4</span>
+        <span>kg</span>
+        <p id="blacku">Lifetd Using GYMWOLF</p>
+     </p>
+</div>
+<div id="now">
+<div class="Footer">
+    <div class="Footer1">
+        <div>
+            <a href="" id="black"><div>ABOUT</div></a>
+            <a href="aboutus.html" class="zero"><div>About Us</div></a>
+            <a href="contact.html" class="zero"><div>Contact</div></a>
+        </div>
+        <div>
+            <a href="" id="black"><div>LEGAL</div></a>
+            <a href="" class="zero"><div>Terms of Service</div></a>
+            <a href="" class="zero"><div>Privacy</div></a>
+            <a href="" class="zero"><div>pricing</div></a>
+        </div>
+        <div id="only">
+            <a href="" ><div>Get the app</div></a>
+            <a href="" ><img src="https://www.gymwolf.com/img/footer/android-button.png" alt=""></a>
+            <a href="" ><img src="https://www.gymwolf.com/img/footer/ios-button.png" alt=""></a>
+        </div>
+        <div id="only">
+            <a href="" id="black">SOCIAL</a>
+            <a href=""><img id="face" src="https://www.gymwolf.com/img/footer/fb-button.png" alt=""></a>
+        </div>
+        <div id="only">
+            <a href=""  ><div >LANGUAGE</div></a>
+            <a href="" class="zero"><div>Eesti keeles</div></a>
+            
+        </div>
+        
+    </div>
+</div>
+   <hr>
+   <p id="p">Copyright © Mooncascade OÜ. All Rights Reserved. Tel: +372 5344 5686. E-mail: info@gymwolf.com</p>
+   </div>
+
+</div>
+</body>
+</html>
+
+<script>
+  let searchBox = document.getElementById("searchbox")
+
+  let searchicon = document.getElementById("icon")
+
+  searchicon.onclick = function(event){
+    event.preventDefault()
+    searchBox.classList.toggle("active")
+  }
+
+</script>
